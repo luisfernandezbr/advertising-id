@@ -1,0 +1,75 @@
+{
+  "api": {
+    "name": "AdvertisingIdPlugin",
+    "slug": "advertisingidplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "requestTracking",
+        "signature": "() => Promise<{ value: AdvertisingStatus; }>",
+        "parameters": [],
+        "returns": "Promise<{ value: AdvertisingStatus; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "AdvertisingStatus"
+        ],
+        "slug": "requesttracking"
+      },
+      {
+        "name": "getAdvertisingId",
+        "signature": "() => Promise<{ id: string; status: AdvertisingStatus; }>",
+        "parameters": [],
+        "returns": "Promise<{ id: string; status: AdvertisingStatus; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "AdvertisingStatus"
+        ],
+        "slug": "getadvertisingid"
+      },
+      {
+        "name": "getAdvertisingStatus",
+        "signature": "() => Promise<{ status: AdvertisingStatus; }>",
+        "parameters": [],
+        "returns": "Promise<{ status: AdvertisingStatus; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "AdvertisingStatus"
+        ],
+        "slug": "getadvertisingstatus"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [
+    {
+      "name": "AdvertisingStatus",
+      "slug": "advertisingstatus",
+      "docs": "",
+      "types": [
+        {
+          "text": "'Authorized'",
+          "complexTypes": []
+        },
+        {
+          "text": "'Denied'",
+          "complexTypes": []
+        },
+        {
+          "text": "'Not Determined'",
+          "complexTypes": []
+        },
+        {
+          "text": "'Restricted'",
+          "complexTypes": []
+        }
+      ]
+    }
+  ],
+  "pluginConfigs": []
+}
